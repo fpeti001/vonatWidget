@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="yess.barmimass.csabilusta.Settings">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Oda:"
+    android:textSize="25dp"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginTop="5dp"></TextView>
+<TextView
+    android:id="@+id/honnan_indul"
+    android:text="honnnaaaan"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/asd"
+    android:textColor="@color/narancs"
+
+    ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vissza:"
+        android:textSize="25dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"></TextView>
+
+    <TextView
+        android:id="@+id/hova_megy"
+        android:text="hovaaa"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/asd"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/narancs"
+
+
+        ></TextView>
+    <Button
+        android:id="@+id/frissites_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/narancs"
+        android:text="Frissítés"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"></Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<Switch
+    android:id="@+id/switch_auto_update_settings"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    ></Switch>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Automatikus widget frissítés"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Oda:"
+            android:textSize="25dp"
+
+
+            ></TextView>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Vissza:"
+            android:textSize="25dp"
+            ></TextView>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/dep_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+
+            ></TextView>
+        <TextView
+            android:id="@+id/dep_real_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+            ></TextView>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
